@@ -1,0 +1,199 @@
+@-webkit-keyframes animate-fade-in-down
+{
+   0% { -webkit-transform: translate(0px,-100px) rotate(0deg) ; opacity: 0;  }
+   100% { -webkit-transform: translate(0px,0px) rotate(0deg) ; opacity: 1;  }
+}
+@-moz-keyframes animate-fade-in-down
+{
+   0% { -moz-transform: translate(0px,-100px) rotate(0deg) ; opacity: 0;  }
+   100% { -moz-transform: translate(0px,0px) rotate(0deg) ; opacity: 1;  }
+}
+@keyframes animate-fade-in-down
+{
+   0% { transform: translate(0px,-100px) rotate(0deg) ; opacity: 0;  }
+   100% { transform: translate(0px,0px) rotate(0deg) ; opacity: 1;  }
+}
+@-webkit-keyframes animate-fade-in-up
+{
+   0% { -webkit-transform: translate(0px,100px) rotate(0deg) ; opacity: 0;  }
+   100% { -webkit-transform: translate(0px,0px) rotate(0deg) ; opacity: 1;  }
+}
+@-moz-keyframes animate-fade-in-up
+{
+   0% { -moz-transform: translate(0px,100px) rotate(0deg) ; opacity: 0;  }
+   100% { -moz-transform: translate(0px,0px) rotate(0deg) ; opacity: 1;  }
+}
+@keyframes animate-fade-in-up
+{
+   0% { transform: translate(0px,100px) rotate(0deg) ; opacity: 0;  }
+   100% { transform: translate(0px,0px) rotate(0deg) ; opacity: 1;  }
+}
+@-webkit-keyframes animate-fade-out
+{
+   0% { opacity: 1;  }
+   100% { opacity: 0;  }
+}
+@-moz-keyframes animate-fade-out
+{
+   0% { opacity: 1;  }
+   100% { opacity: 0;  }
+}
+@keyframes animate-fade-out
+{
+   0% { opacity: 1;  }
+   100% { opacity: 0;  }
+}
+@-webkit-keyframes slide-left-in
+{
+   0% { -webkit-transform: translate(-100%,0px) rotate(1deg) ; opacity: 0; -webkit-transform-origin: 0 0;  }
+   100% { opacity: 1; -webkit-transform: translate(0px,0px) rotate(0deg) ; -webkit-transform-origin: 0 0;  }
+}
+@-moz-keyframes slide-left-in
+{
+   0% { -moz-transform: translate(-100%,0px) rotate(1deg) ; opacity: 0; -moz-transform-origin: 0 0;  }
+   100% { opacity: 1; -moz-transform: translate(0px,0px) rotate(0deg) ; -moz-transform-origin: 0 0;  }
+}
+@keyframes slide-left-in
+{
+   0% { transform: translate(-100%,0px) rotate(1deg) ; opacity: 0; transform-origin: 0 0;  }
+   100% { opacity: 1; transform: translate(0px,0px) rotate(0deg) ; transform-origin: 0 0;  }
+}
+@-webkit-keyframes slide-right-in
+{
+   0% { -webkit-transform: translate(100%,0px) rotate(1deg) ; opacity: 0; -webkit-transform-origin: 0 0;  }
+   100% { opacity: 1; -webkit-transform: translate(0px,0px) rotate(0deg) ; -webkit-transform-origin: 0 0;  }
+}
+@-moz-keyframes slide-right-in
+{
+   0% { -moz-transform: translate(100%,0px) rotate(1deg) ; opacity: 0; -moz-transform-origin: 0 0;  }
+   100% { opacity: 1; -moz-transform: translate(0px,0px) rotate(0deg) ; -moz-transform-origin: 0 0;  }
+}
+@keyframes slide-right-in
+{
+   0% { transform: translate(100%,0px) rotate(1deg) ; opacity: 0; transform-origin: 0 0;  }
+   100% { opacity: 1; transform: translate(0px,0px) rotate(0deg) ; transform-origin: 0 0;  }
+}
+@-webkit-keyframes transform-lightspeed-in
+{
+   0% { -webkit-transform: translate(100%,0px) rotate(0deg) skewX(-30deg) ; opacity: 0;  }
+   60% { -webkit-transform: translate(-20%,0px) rotate(0deg) skewX(30deg) ; opacity: 1;  }
+   80% { -webkit-transform: translate(0px,0px) rotate(0deg) skewX(-15deg) ; opacity: 1;  }
+   100% { -webkit-transform: translate(0px,0px) rotate(0deg) skewX(0deg) ; opacity: 1;  }
+}
+@-moz-keyframes transform-lightspeed-in
+{
+   0% { -moz-transform: translate(100%,0px) rotate(0deg) skewX(-30deg) ; opacity: 0;  }
+   60% { -moz-transform: translate(-20%,0px) rotate(0deg) skewX(30deg) ; opacity: 1;  }
+   80% { -moz-transform: translate(0px,0px) rotate(0deg) skewX(-15deg) ; opacity: 1;  }
+   100% { -moz-transform: translate(0px,0px) rotate(0deg) skewX(0deg) ; opacity: 1;  }
+}
+@keyframes transform-lightspeed-in
+{
+   0% { transform: translate(100%,0px) rotate(0deg) skewX(-30deg) ; opacity: 0;  }
+   60% { transform: translate(-20%,0px) rotate(0deg) skewX(30deg) ; opacity: 1;  }
+   80% { transform: translate(0px,0px) rotate(0deg) skewX(-15deg) ; opacity: 1;  }
+   100% { transform: translate(0px,0px) rotate(0deg) skewX(0deg) ; opacity: 1;  }
+}
+@-webkit-keyframes swoop-out
+{
+   0% { -webkit-transform: rotate(0deg) scale(1,1) ;  }
+   40% { -webkit-transform: translate(-20px,0px) rotate(0deg) scale(1.0,1.0) ; opacity: 1;  }
+   60% { -webkit-transform: translate(0px,0px) rotate(0deg) scale(1.2,1.0) ;  }
+   100% { -webkit-transform: translate(400px,0px) rotate(0deg) scale(1.5,1) ; opacity: 0;  }
+}
+@-moz-keyframes swoop-out
+{
+   0% { -moz-transform: rotate(0deg) scale(1,1) ;  }
+   40% { -moz-transform: translate(-20px,0px) rotate(0deg) scale(1.0,1.0) ; opacity: 1;  }
+   60% { -moz-transform: translate(0px,0px) rotate(0deg) scale(1.2,1.0) ;  }
+   100% { -moz-transform: translate(400px,0px) rotate(0deg) scale(1.5,1) ; opacity: 0;  }
+}
+@keyframes swoop-out
+{
+   0% { transform: rotate(0deg) scale(1,1) ;  }
+   40% { transform: translate(-20px,0px) rotate(0deg) scale(1.0,1.0) ; opacity: 1;  }
+   60% { transform: translate(0px,0px) rotate(0deg) scale(1.2,1.0) ;  }
+   100% { transform: translate(400px,0px) rotate(0deg) scale(1.5,1) ; opacity: 0;  }
+}
+h1, .h1
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 32px;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline-block;
+}
+h2, .h2
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 27px;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline-block;
+}
+h3, .h3
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 24px;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline-block;
+}
+h4, .h4
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 21px;
+   font-style: italic;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline-block;
+}
+h5, .h5
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 19px;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline-block;
+}
+h6, .h6
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 16px;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline-block;
+}
+.CustomStyle
+{
+   font-family: "Courier New";
+   font-weight: bold;
+   font-size: 16px;
+   text-decoration: none;
+   color: #2E74B5;
+   background-color: transparent;
+}
